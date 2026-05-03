@@ -2,6 +2,11 @@
 @echo off
 setlocal enabledelayedexpansion
 
+:: Create output directories first if not present
+if not exist "..\Compiled\SPIRV" mkdir "..\Compiled\SPIRV"
+if not exist "..\Compiled\MSL" mkdir "..\Compiled\MSL"
+if not exist "..\Compiled\DXIL" mkdir "..\Compiled\DXIL"
+
 for %%f in (*.vert.hlsl) do (
     if exist "%%f" (
         shadercross "%%f" -o "..\Compiled\SPIRV\%%~nf.spv"
