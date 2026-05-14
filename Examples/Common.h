@@ -119,9 +119,11 @@ extern Example BlitCube_Example;
 extern Example BlitMirror_Example;
 extern Example GenerateMipmaps_Example;
 extern Example Latency_Example;
+extern Example DepthArray_Example;
 extern Example DepthSampler_Example;
 extern Example PullSpriteBatch_Example;
 extern Example TextureTypeTest_Example;
 extern Example CompressedTextures_Example;
+extern Example Bloom_Example;
 
 #endif

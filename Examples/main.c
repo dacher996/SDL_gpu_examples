@@ -33,10 +33,12 @@ static Example* Examples[] =
 	&GenerateMipmaps_Example,
 	&Latency_Example,
 	&DepthSampler_Example,
+	&DepthArray_Example,
 	&ComputeSpriteBatch_Example,
 	&PullSpriteBatch_Example,
 	&TextureTypeTest_Example,
 	&CompressedTextures_Example,
+	&Bloom_Example
 };
 
 bool AppLifecycleWatcher(void *userdata, SDL_Event *event)

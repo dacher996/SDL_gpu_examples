@@ -48,10 +48,12 @@ add_executable(SDL_gpu_examples
     Examples/BlitMirror.c
     Examples/GenerateMipmaps.c
     Examples/Latency.c
+    Examples/DepthArray.c
     Examples/DepthSampler.c
     Examples/PullSpriteBatch.c
     Examples/TextureTypeTest.c
     Examples/CompressedTextures.c
+    Examples/Bloom.c
 )
 
 target_link_libraries(SDL_gpu_examples
